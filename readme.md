@@ -5,6 +5,6 @@ The main focus of this class is understanding how different programming language
 </br>
 </br>
 At the moment we have covered and gotten familiar with languages like: </br>
-Python
-F#
-Prolog
+Python </br> 
+F# </br>
+Prolog </br>
