@@ -32,32 +32,39 @@ noun([cat]). % define noun cat
 verb([sees]). %define verb sees
 
 /*Run query: ?-sentence(NewSen)
+ *
  * What will this query give you?*/
-%____your answer here____
+%from   NewSen = [the, human, sees, the, human]
+%... all the way 
+%to     NewSen = [a, cat]
+
 
 /*Set breakpoint at line 21, run the same query step by step and observe closely.
  * How did this program work? Can you express the process using a graph (on paper, just for your own understanding)?*/
-%____your answer here____
+%it gave us a every single possible correct sentence.
+
 
 /*The obove query shows you how we can generate grammatically correct sentences. 
  *Do all the generated sentances semantically correct?*/
-%____your answer here____
+%No, even though the sentences are gramatically correct, they might not make sense for humans.
 
 /*Why do you need append in every line?*/
-%____your answer here____
+%To include the next token in to the string.
 
 /*Now let us see how can a parser check whether the input line is a grammatically correct sentence.
  * Run query: ?-sentence([a, human, sees, the, cat]).
  * What is the output? 
  * Set breakpoint and go step by step. Can you draw a parse tree following the steps (no need to submit, just for your practice)?*/
-%____your answer here____
+%true
 
 /*We say programming languages are just like human languages all the time without really thinking this through.
  * After the above excercise, can you see the deeper link between natural vs. computer languages? 
  * What are they? 
  * Can you link the complier process to the process that your brain *might* use to understand human languages?
  * For those whom has psychology background, this might be an interesting topic to go deeper.*/
-%____your answer here____
+%yes, at the end of the day both computer and human languages are just languages. The same way that human languages are different and have some rules in order to make them logic, the computer's languages are too. 
+
+
 
 
 /*###################
