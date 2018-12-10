@@ -95,16 +95,24 @@ int([3]).
 int([4]).
 int([5]).
 
+
 %define all the tokens below
 %____your answer here, multiple lines. integer range 1-5____
+identifier([varA]).
+integerT([1]).
+integerT([2]).
+integerT([3]).
+integerT([4]).
+integerT([5]).
+mathop([+]).
+equalop([=]).
+
 
 /*Run query: ?-math_code(NewCode).
  * What will this query do?*/
-%____your answer here____
+%give us all the possible combinations of a sum = (1-5) + (1-5)
 
 /*What query should you write if you want to check whether VarA=1+5 is a legal line of math_code?*/
-%____your answer here____
+%?-math_code(VarA=1+5).
 
-/*Set breakpoint and go step by step. Draw a parse tree. (no need to submit, just for yo
- * 
- * */
+/*Set breakpoint and go step by step. Draw a parse tree. (no need to submit, just for your practice)*/
